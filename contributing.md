@@ -1,6 +1,9 @@
 @def title = "RandNLA Proof Wiki"
 @def tags = ["syntax", "code"]
 
+\enabletheorems
+
+
 \newcounter{NumAlgorithms}
 
 # Contributing to the Wiki
