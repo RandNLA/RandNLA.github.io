@@ -129,7 +129,7 @@ Point 3 follows from the Inner Product Characterization:
 Point 4 follows from Points 2 and 3.
 
 Point 5 follows from Point 4:
-Since every $\mA$ has an SVD $\mA=\mU\mSigma\mV^\intercal$, we can find an orthogonal $\mU$ that satisfied Point 4.
+Since every $\mA$ has an SVD $\mA=\mU\mat{\Sigma}\mV^\intercal$, we can find an orthogonal $\mU$ that satisfied Point 4.
 Let $\vu_i$ denote the $i^{th}$ row of $\mU$ and let $\hat{\vu}_j$ denote the $j^{th}$ column of $\mU$.
 Then,
 \[
