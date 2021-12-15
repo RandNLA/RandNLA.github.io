@@ -43,5 +43,5 @@ _Todo Note: Make these intro dropdowns? It's a bit overwhelming visually as-is._
 
 ## Useful References
 
-1. Approximating Common Functions with Polynomials
+1. [Approximating Common Functions with Polynomials](/polynomial-approximations/)
 1. Spike Polynomials
