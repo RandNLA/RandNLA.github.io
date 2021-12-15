@@ -2,7 +2,7 @@
 using FranklinTheorems
 
 # Includes the custom markdown files, bringing the `\newcommand` and `\newenvironment` definitions into scope.
-Franklin.include_external_config(FranklinTheorems.config_path())
+Franklin.include_external_config(FranklinTheorems.config_path(["corollary"]))
 
 # LaTeX Preamble
 Franklin.convert_md(read("./_fkl_libs/preamble.texmd", String); isconfig=true)

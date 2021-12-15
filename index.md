@@ -27,7 +27,7 @@ _Todo Note: Make these intro dropdowns? It's a bit overwhelming visually as-is._
 
 **Leverage Scores:**
 1. [Basic Properties of Leverage Scores](/leverage-score-properties/)
-1. [Subspace Embedding via Leverage Score Sampling (matrix Chernoff)](/leverage-subspace-embedding/)
+1. [Subspace Embedding via Leverage Score Sampling (Matrix Bernstein)](/leverage-subspace-embedding/)
 1. Sample Complexity of $L_2$ Regression via Leverage Score Sampling
 1. Active Regression via Leverage Scores
 
