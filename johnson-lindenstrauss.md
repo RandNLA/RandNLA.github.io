@@ -54,7 +54,7 @@ Given this simple concentration, we can state the Johnson-Lindenstrauss Lemma:
 
 \begin{lemma}{Johnson-Lindenstrauss}{jl-lemma}
 Let $\vx_1,\ldots,\vx_n\in\bbR^{d}$.
-Fix $\eps>0$, $\delta>0$, and $k = \Omega(\frac1{\eps^2}\log(\frac n\delta))$.
+Fix $\eps\in(0,1)$, $\delta>0$, and $k = \Omega(\frac1{\eps^2}\log(\frac n\delta))$.
 Let $\mPi\in\bbR^{k \times d}$ be a matrix of iid $\cN(0,\frac1k)$ entries.
 Then, with probability $1-\delta$, for all pairs $i,j$ we have
 \[
@@ -67,7 +67,13 @@ Then, with probability $1-\delta$, for all pairs $i,j$ we have
 \begin{proof}
 For all pairs $i,j$, consider $\vv_{i,j} \defeq \vx_i - \vx_j$, and union bound \lemmaref{gaussian-norm} to find a matrix $\mG$ which preserves the norms of all $\vv_{i,j}$.
 This involves union bounding over $\binom{n}{2} = O(n^2)$ vectors, which causes $\log(\frac n\delta)$ to appear in the requirement on $k$.
-Noticing that $\mPi = \frac1{\sqrt k} \mG$ completes the proof.
+Since $\mPi = \frac1{\sqrt k} \mG$, we have
+\[
+	\sqrt{1-\eps} \normof{\vx_i - \vx_j}_2
+	\leq \normof{\mPi\vx_i - \mPi\vx_j}_2
+	\leq \sqrt{1+\eps} \normof{\vx_i - \vx_j}_2
+\]
+We then note that $\sqrt{1-\eps} > 1-\eps$ and $\sqrt{1+\eps} < 1+\eps$ ([see this on Desmos](https://www.desmos.com/calculator/heb771c0tf)), which completes the proof.
 \end{proof}
 \end{dropdown}
 
@@ -86,18 +92,18 @@ Here's some important papers in the area of JL:
 
 # Bibliography
 
-* \biblabel{musco18lecture}{Musco (2018)} **Musco**. [Lecture 10: Dimensionality Reduction and the Johnson-Lindenstrauss Lemma](https://www.cs.princeton.edu/courses/archive/fall18/cos521/Lectures/lec10.pdf). _Lecture Notes, 2018_.
-
-* \biblabel{wainright2019high}{Wainwright (2015)} **Wainwright**. [Draft of _High-dimensional statistics: A Non-Asymptotic Viewpoint_, Chapter 2](https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf). _Draft of publication at Cambridge University Press, 2015_.
-
 * \biblabel{ailon2009fast}{Ailon Chazelle (2009)} **Ailon** and **Chazelle**. [The fast Johnson--Lindenstrauss transform and approximate nearest neighbors](https://www.cs.princeton.edu/~chazelle/pubs/FJLT-sicomp09.pdf). _SICOMP 2009_.
+
+* \biblabel{johnson1984extensions}{Johnson Lindenstrauss (1984)} **Johnson** and **Lindenstrauss**. [Extensions of Lipschitz mappings into a Hilbert space](http://stanford.edu/class/cs114/readings/JL-Johnson.pdf). _Contemporary Mathematics 1984_.
 
 * \biblabel{kane2014sparser}{Kane Nelson (2014)} **Kane** and **Nelson**. [Sparser Johnson-Lindenstrauss Transforms](https://arxiv.org/pdf/1012.1577.pdf). _JACM 2014_.
 
-* \biblabel{nelson2013sparsity}{Nelson Nguyễn (2013)} **Nelson** and **Nguyễn**. [Sparsity Lower Bounds for Dimensionality Reducing Maps](https://arxiv.org/pdf/1211.0995.pdf). _STOC 2013_.
-
 * \biblabel{larsen2017optimality}{Larsen Nelson (2017)} **Larsen** and **Nelson**. [Optimality of the Johnson-Lindenstrauss Lemma](https://arxiv.org/pdf/1609.02094.pdf). _FOCS 2017_.
 
-* \biblabel{johnson1984extensions}{Johnson Lindenstrauss (1984)} **Johnson** and **Lindenstrauss**. [Extensions of Lipschitz mappings into a Hilbert space](http://stanford.edu/class/cs114/readings/JL-Johnson.pdf). _Contemporary Mathematics 1984_.
+* \biblabel{musco18lecture}{Musco (2018)} **Musco**. [Lecture 10: Dimensionality Reduction and the Johnson-Lindenstrauss Lemma](https://www.cs.princeton.edu/courses/archive/fall18/cos521/Lectures/lec10.pdf). _Lecture Notes, 2018_.
+
+* \biblabel{nelson2013sparsity}{Nelson Nguyễn (2013)} **Nelson** and **Nguyễn**. [Sparsity Lower Bounds for Dimensionality Reducing Maps](https://arxiv.org/pdf/1211.0995.pdf). _STOC 2013_.
+
+* \biblabel{wainright2019high}{Wainwright (2015)} **Wainwright**. [Draft of _High-dimensional statistics: A Non-Asymptotic Viewpoint_, Chapter 2](https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf). _Draft of publication at Cambridge University Press, 2015_.
 
 \theoremscripts

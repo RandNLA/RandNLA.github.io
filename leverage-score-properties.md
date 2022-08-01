@@ -161,17 +161,16 @@ There are many extensions of leverage scores in the literature:
 
 # Bibliography
 
-* \biblabel{avron2019universal}{Avron et al. (2019)} **Avron**, **Kapralov**, **Musco**, **Musco**, **Velingker**, and **Zandieh**. [A Universal Sampling Method for Reconstructing Signals with Simple Fourier Transforms](https://arxiv.org/pdf/1812.08723.pdf). _STOC_ 2019.
-
 * \biblabel{alaoui2014fast}{Alaoui Mahoney (2015)} **Alaoui** and **Mahoney**. [Fast Randomized Kernel Methods with Statistical Guarantees.](https://www.stat.berkeley.edu/~mmahoney/pubs/elalaoui-nips15.pdf). _NIPS_ 2015.
 
 * \biblabel{avron2011randomized}{Avron et al. (2017)} **Avron**, **Kapralov**, **Musco**, **Musco**, **Velingker**, and **Zandieh**. [Random Fourier Features for Kernel Ridge Regression: Approximation Bounds and Statistical Guarantees](https://arxiv.org/pdf/1804.09893.pdf). _ICML_ 2017.
 
-* \biblabel{avron2011input}{Cohen Musco² (2017)} **Cohen**, **Kapralov**, **Musco**, and **Musco**. [Input Sparsity Time Low-Rank Approximation via Ridge Leverage Score Sampling](https://arxiv.org/pdf/1511.07263.pdf). _SODA_ 2017.
+* \biblabel{avron2019universal}{Avron et al. (2019)} **Avron**, **Kapralov**, **Musco**, **Musco**, **Velingker**, and **Zandieh**. [A Universal Sampling Method for Reconstructing Signals with Simple Fourier Transforms](https://arxiv.org/pdf/1812.08723.pdf). _STOC_ 2019.
 
 * \biblabel{chen2019active}{Chen Price (2019)} **Chen** and **Price**. [Active Regression via Linear-Sample Sparsification](https://arxiv.org/pdf/1511.07263.pdf). _COLT_ 2019.
 
-* \biblabel{cohen2015lp}{Cohen Peng (2019)} **Cohen** and **Peng**. [$\ell_p$ Row Sampling by Lewis Weights](https://arxiv.org/pdf/1412.0588.pdf). _STOC_ 2015.
+* \biblabel{avron2011input}{Cohen et al. (2017)} **Cohen**, **Kapralov**, **Musco**, and **Musco**. [Input Sparsity Time Low-Rank Approximation via Ridge Leverage Score Sampling](https://arxiv.org/pdf/1511.07263.pdf). _SODA_ 2017.
 
+* \biblabel{cohen2015lp}{Cohen Peng (2019)} **Cohen** and **Peng**. [$\ell_p$ Row Sampling by Lewis Weights](https://arxiv.org/pdf/1412.0588.pdf). _STOC_ 2015.
 
 \theoremscripts
