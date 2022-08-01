@@ -9,7 +9,7 @@
 \newcommand{\defeq}{\;{\vcentcolon=}\;}
 \newcommand{\eps}{\varepsilon}
 
-\newcommand{\abs}[1]{|!#1|}
+\newcommand{\abs}[1]{\left|!#1\right|}
 \newcommand{\normof}[1]{\|!#1\|}
 \newcommand{\onormof}[2]{\|!#1\|_{!#2}}
 
@@ -101,6 +101,7 @@
 \newcommand{\mX}{\mat{X}}
 \newcommand{\mY}{\mat{Y}}
 \newcommand{\mZ}{\mat{Z}}
+\newcommand{\mPi}{\mat{\Pi}}
 
 %% Vectors
 \newcommand{\va}{\vec{a}}

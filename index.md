@@ -22,8 +22,8 @@ _Todo Note: Autogenerate this via Franklin.jl Tags_
 _Todo Note: Make these intro dropdowns? It's a bit overwhelming visually as-is._
 
 **Oblivious Embeddings:**
+1. [Gaussian Johnson-Lindenstrauss Lemma](/johnson-lindenstrauss)
 1. Subspace Embedding via JL Lemma (epsilon-net)
-1. Gaussian Johnson-Lindenstrauss Lemma
 
 **Leverage Scores:**
 1. [Basic Properties of Leverage Scores](/leverage-score-properties/)
