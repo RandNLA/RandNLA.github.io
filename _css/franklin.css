@@ -177,6 +177,13 @@ td {
   display: inline;
 }
 
+.franklin-content .highlight {
+  background: var(--block-background);
+  padding: 0.1em 0.2em;
+  border-radius: 10px;
+  font-style: italic;
+}
+
 /* ==================================================================
     GENERAL FORMATTING
 ================================================================== */

@@ -6,11 +6,13 @@
 
 \newcommand{\E}{\bbE}
 \newcommand{\Var}{\text{Var}}
+\newcommand{\tr}{\text{tr}}
 \newcommand{\defeq}{\;{\vcentcolon=}\;}
 \newcommand{\eps}{\varepsilon}
 
 \newcommand{\abs}[1]{\left|!#1\right|}
 \newcommand{\normof}[1]{\|!#1\|}
+\newcommand{\normoflr}[1]{\left\|!#1\right\|}
 \newcommand{\onormof}[2]{\|!#1\|_{!#2}}
 
 \newcommand{\tsfrac}[2]{{\textstyle\frac{#1}{#2}}}

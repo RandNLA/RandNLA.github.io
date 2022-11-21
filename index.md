@@ -23,7 +23,7 @@ _Todo Note: Make these intro dropdowns? It's a bit overwhelming visually as-is._
 
 **Oblivious Embeddings:**
 1. [Gaussian Johnson-Lindenstrauss Lemma](/johnson-lindenstrauss)
-1. Subspace Embedding via JL Lemma (epsilon-net)
+1. [Subspace Embedding via JL Lemma (epsilon-net)](/subspace-embed-eps-net)
 
 **Leverage Scores:**
 1. [Basic Properties of Leverage Scores](/leverage-score-properties/)
@@ -32,7 +32,7 @@ _Todo Note: Make these intro dropdowns? It's a bit overwhelming visually as-is._
 1. Active Regression via Leverage Scores
 
 **Self-Contained Results:**
-1. Fast Matrix-Matrix Multiplication
+1. [Fast Matrix-Matrix Multiplication](/fast-matrix-mult/)
 1. $L_p$ Regression via Subspace Embedding
 1. Power Method for Top Eigenvalue
 1. Krylov Iteration for Low-Rank Approximation

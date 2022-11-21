@@ -23,3 +23,13 @@ Add here global latex commands to use throughout your pages.
 -->
 
 \newcommand{\nbsp}{~~~&nbsp;~~~}
+\newcommand{\highlight}[1]{\html{<span class="highlight">}!#1\html{</span>}}
+\newcommand{\html}[1]{~~~!#1~~~}
+
+\newenvironment{figure}[1]{
+  \html{<figure>}
+}{
+  \html{<figcaption>#1</figcaption></figure>}
+}
+
+\newcommand{\includegraphics}[1]{![](!#1)}
