@@ -13,8 +13,8 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "Franklin Template"
-website_descr = "Example website using Franklin"
+website_title = "RandNLA Proof Wiki"
+website_descr = "An incomplete list of the shortest, cleanest, and most important known proofs in the RandNLA literature"
 website_url   = "https://randnla.github.io/"
 +++
 
