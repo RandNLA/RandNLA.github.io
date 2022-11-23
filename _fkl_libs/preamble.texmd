@@ -140,13 +140,15 @@
   \html{</div>}
 }
 
-\newenvironment{algorithm}[1]{
+\newenvironment{algorithm}[2]{
   @@pseudocode
   \stepcounter{NumAlgorithms}
-  \style{font-size: 20px}{Algorithm \arabic{NumAlgorithms}: #1}
+  \style{font-size: 20px}{\html{<a href="#} \fakebiblabel{!#2 @ Algorithm \arabic{NumAlgorithms}} \html{">} Algorithm \arabic{NumAlgorithms}: #1 \html{</a>}}
 
   ---
 
 }{
   @@
 }
+
+\newcommand{\algorithmref}[1]{\cite{!#1}}
