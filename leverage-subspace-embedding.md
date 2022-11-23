@@ -1,10 +1,8 @@
 @def title = "RandNLA Proof Wiki"
 @def tags = ["syntax", "code"]
 
-\newcounter{NumAlgorithms}
-
 \enabletheorems
-
+\newcounter{NumAlgorithms}
 
 # Subspace Embedding via Leverage Score Sampling
 On this page, we show how sampling a matrix via its leverage scores creates a subspace embedding guarantee.
@@ -13,7 +11,7 @@ Subspace embeddings are core to much of RandNLA, so many papers either assume th
 _Prerequisite: [Basic Properties of Leverage Scores](/leverage-score-properties/)_
 
 We consider the following algorithm:
-\begin{algorithm}{Leverage Score Subspace Embedding}
+\begin{algorithm}{Leverage Score Subspace Embedding}{leverage-subspace-embedding}
 **input**: Matrix $\mA\in\bbR^{n \times d}$. Number $k$ of subsamples.
 
 **output**: Sketched matrix $\tilde{\mA}\in\bbR^{k \times d}$
@@ -170,12 +168,12 @@ A very important and common extension of row sampling is discussed here.
 Note that \theoremref{leverage-subspace-embedding} only works, as stated, if we compute the leverage scores of $\mA$ exactly.
 This is not necessary, and approximate leverage scores suffice, as characterized below:
 
-\begin{algorithm}{Leverage Score Subspace Embedding}
+\begin{algorithm}{Leverage Score Subspace Embedding}{leverage-subspace-embedding-oversampling}
 **input**: Matrix $\mA\in\bbR^{n \times d}$. Number $k$ of subsamples. Sampling probabilities $p_1,\ldots,p_n$.
 
 **output**: Sketched matrix $\tilde{\mA}\in\bbR^{k \times d}$
 
-1. Sample indices $s_1,\ldots,s_k\in[n]$ iid with respect to $p_i,\ldots,p_n$
+1. Sample indices $s_1,\ldots,s_k\in[n]$ iid with respect to $p_1,\ldots,p_n$
 1. Build the sample-and-rescale matrix $\mS\in\bbR^{k \times n}$:
     
     Row $i$ of $\mS$ has form $\begin{bmatrix}0&0&\cdots&0&\frac{1}{\sqrt{k p_{s_i}}}&0&\cdots&0\end{bmatrix}$, where index $s_i$ is the nonzero entry.

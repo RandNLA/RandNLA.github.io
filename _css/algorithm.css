@@ -19,3 +19,7 @@
   margin: 0;
   line-height: 1.5em;
 }
+
+.franklin-content .pseudocode a:link {
+  text-shadow: 0.03em 0 var(--block-background), -0.03em 0 var(--block-background), 0 0.03em var(--block-background), 0 -0.03em var(--block-background), 0.06em 0 var(--block-background), -0.06em 0 var(--block-background), 0.09em 0 var(--block-background), -0.09em 0 var(--block-background), 0.12em 0 var(--block-background), -0.12em 0 var(--block-background), 0.15em 0 var(--block-background), -0.15em 0 var(--block-background);
+}

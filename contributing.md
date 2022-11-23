@@ -2,9 +2,8 @@
 @def tags = ["syntax", "code"]
 
 \enabletheorems
-
-
 \newcounter{NumAlgorithms}
+
 
 # Contributing to the Wiki
 
@@ -83,7 +82,7 @@ This relates to \definitionref{named-label}.
 
 \nbsp
 
-\begin{algorithm}{Algo Name}
+\begin{algorithm}{Algo Name}{alg-name}
 This is actually just like the lemma and theorem environments.
 
 It is not tied to any of the standard latex pseudocode libraries.

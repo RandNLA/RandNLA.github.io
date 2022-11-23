@@ -2,6 +2,7 @@
 @def tags = ["syntax", "code"]
 
 \enabletheorems
+\newcounter{NumAlgorithms}
 
 # Fast Matrix Multiplication
 
@@ -9,7 +10,7 @@ On this page we show one of several possible fast matrix multiplication guarante
 Notably, these guarantees generally have a polynomial dependence on the success probability, though they can be boosted to have a $\log(\frac1\delta)$ success probability by repeating the algorithm.
 
 We consider the following algorithm:
-\begin{algorithm}{Fast Matrix Multiplication}
+\begin{algorithm}{Fast Matrix Multiplication}{fast-mmult}
 **input**: Matrices $\mA\in\bbR^{n \times d}$, $\mB\in\bbR^{n \times m}$. Number $k$ of subsamples. Probabilities $p_1,\ldots,p_n$
 
 **output**: Sketched matrix $\mC\in\bbR^{d \times m}$
@@ -89,7 +90,7 @@ Having completed this core technical claim, \theoremref{fast-mmult} follows by a
 In fact, we prove something slightly broader:
 \begin{corollary}{Oversampling Fast Multiplication}{fast-mmult-oversample}
 Let $\tilde\tau_1,\ldots,\tilde\tau_n$ be numbers such that $\tilde\tau_\ell \geq \normof{\va_\ell}_2^2$ for all $\ell\in[n]$, and let $T \defeq \sum_{\ell=1}^n \tilde\tau_\ell$.
-Then let $p_\ell \defeq \frac{\tilde\tau_\ell}{T}$ and run Algorithm 1.
+Then let $p_\ell \defeq \frac{\tilde\tau_\ell}{T}$ and run \algorithmref{fast-mmult}.
 Then, so long as $k \geq \frac{1}{\eps^2 \delta} \cdot \frac{T}{\normof{\mA}_F^2}$, with probability $1-\delta$ we get
 \[
 	\normof{\mC-\mA^\intercal\mB}_F
