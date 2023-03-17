@@ -171,11 +171,11 @@ There are resources with similar analyses in the literature:
 
 * \biblabel{sarlos2006improved}{Sarlos (2017)} **Sarlos**. [Improved Approximation Algorithms for Large Matrices via Random Projections](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4031351). _FOCS_ 2006.
 
-* \biblabel{chen2019active}{Chen Price (2019)} **Chen** and **Price**. [Active Regression via Linear-Sample Sparsification](https://arxiv.org/pdf/1511.07263.pdf). _COLT_ 2019.
+* \biblabel{chen2019active}{Chen Price (2019)} **Chen** and **Price**. [Active Regression via Linear-Sample Sparsification]([https://arxiv.org/pdf/1511.07263.pdf](https://arxiv.org/pdf/1711.10051.pdf)). _COLT_ 2019.
 
 * \biblabel{musco2021active}{Musco et al. (2019)} **Musco**, **Musco**, **Woodruff**, and **Yasuda**. [Active Sampling for Linear Regression Beyond the $\ell_2 $ Norm](https://arxiv.org/pdf/2111.04888.pdf). _FOCS_ 2022.
 
-* \biblabel{meyer2020statistical}{Musco et al. (2019)} **Meyer** and **Musco**. [The Statistical Cost of Robust Kernel Hyperparameter Turning](https://arxiv.org/pdf/2006.08035.pdf). _NeurIPS_ 2020.
+* \biblabel{meyer2020statistical}{Meyer Musco (2020)} **Meyer** and **Musco**. [The Statistical Cost of Robust Kernel Hyperparameter Turning](https://arxiv.org/pdf/2006.08035.pdf). _NeurIPS_ 2020.
 
 * \biblabel{kapralov2023toeplitz}{Kapralov et al. (2023)} **Kapralov**, **Lawrence**, **Makarov**, **Musco**, and **Sheth**. [Toeplitz Low-Rank Approximation with Sublinear Query Complexity](https://arxiv.org/pdf/2211.11328.pdf). _SODA_ 2023.
 
