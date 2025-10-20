@@ -5,7 +5,7 @@
 
 Welcome to the Randomized Numerical Linear Algebra (RandNLA) Proof Wiki.
 The goal of this site is to catalogue the most clean and essential proofs used in the RandNLA literature.
-This website is a work-in-progress, and if you see something you would like to change, then reach out to [Raphael Meyer](https://ram900.hosting.nyu.edu) at _ram900@nyu.edu_, or [submit an issue on github](https://github.com/RandNLA/RandNLA.github.io/issues/new/choose).
+This website is a work-in-progress, and if you see something you would like to change, then reach out to [Raphael Meyer](https://ram900.com) at _ram900@berkeley.edu_, or [submit an issue on github](https://github.com/RandNLA/RandNLA.github.io/issues/new/choose).
 
 Keep in mind that this site emphasizes simplicity and minimalism in proofs.
 We aim to be clear and concise.
@@ -32,15 +32,15 @@ _Todo Note: Make these intro dropdowns? It's a bit overwhelming visually as-is._
 
 **Self-Contained Results:**
 1. [Fast Matrix-Matrix Multiplication](/fast-matrix-mult/)
-1. $L_p$ Regression via Subspace Embedding
-1. Power Method for Top Eigenvalue
-1. Krylov Iteration for Low-Rank Approximation
-1. Optimal Trace Estimation
-1. Preconditioning Methods
-1. Adaptive Subsampling Algorithms
-
+1. [Trace Estimation Lower Bounds (Hidden Wishart Theorem)](/trace-lower-bound/)
+<!-- 1. $L_p$ Regression via Subspace Embedding -->
+<!-- 1. Power Method for Top Eigenvalue -->
+<!-- 1. Krylov Iteration for Low-Rank Approximation -->
+<!-- 1. Optimal Trace Estimation -->
+<!-- 1. Preconditioning Methods -->
+<!-- 1. Adaptive Subsampling Algorithms -->
 
 ## Useful References
 
 1. [Approximating Common Functions with Polynomials](/polynomial-approximations/)
-1. Spike Polynomials
+<!-- 1. Spike Polynomials -->

@@ -104,6 +104,7 @@
 \newcommand{\mY}{\mat{Y}}
 \newcommand{\mZ}{\mat{Z}}
 \newcommand{\mPi}{\mat{\Pi}}
+\newcommand{\mDelta}{\mat{\Delta}}
 
 %% Vectors
 \newcommand{\va}{\vec{a}}
